@@ -31,3 +31,25 @@ a {
     color: white;
     font-weight: bold;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 80px 200px;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero-text {
+    max-width: 500px;      
+}
+button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
