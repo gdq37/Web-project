@@ -14,17 +14,17 @@ a {
 }
 
 header {
-    background-color: #1f2937;
-    color: white;
-    padding: 16px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 230px;
+    background-color: #1f2937;
+    color: white;
 }
 
 ul { 
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 a {
@@ -35,7 +35,7 @@ a {
 .hero {
     display: flex;
     align-items: center;
-    padding: 80px 200px;
+    padding: 80px 60px;
     justify-content: space-between;
     background-color: #1f2937;
     color: white;
@@ -82,13 +82,13 @@ button {
 }
 
 .info-card {
-    width: 180px
+    width: 180px;
     text-align: center;
 }
 
 .info-card img {
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 10px;
     border: 3px solid #3882f6;
@@ -99,4 +99,16 @@ button {
     gap: 40px;
     justify-content: center;
     margin-top: 40px;
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
