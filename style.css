@@ -61,6 +61,10 @@ button {
     border-radius: 8px;
     margin-top: 10px;
 }
+button:hover {
+    background-color: #2563eb;
+    cursor: pointer;
+}
 
 .info {
     text-align: center;
